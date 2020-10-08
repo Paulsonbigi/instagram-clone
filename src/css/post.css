@@ -1,0 +1,42 @@
+.post-container{
+    margin-bottom: 45px;
+    max-width: 500px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid lightgray;
+    background-color: white;
+}
+.post-header{
+    padding: 15px;
+    display: flex;
+}
+.header-avatar{
+    margin-right: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    padding: 5px;
+}
+.post-url{
+    width: 100%;
+    object-fit: contain;
+    max-width: 500px;
+    border-bottom: 1px solid lightgray;
+    border-top: 1px solid lightgray;
+}
+.post-details h3{
+    font-weight: normal;
+    font-size: medium;
+}
+.post-details h6{
+    font-weight: lighter;
+}
+.post-caption{
+    padding: 10px;
+}
+.post-caption h5{
+    font-weight: normal;
+}
